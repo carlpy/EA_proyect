@@ -3,17 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
 }
 
 .first-bar {
-    height: 4vh;
     background-color: #222;
     display: flex;
     justify-content: flex-end;
 }
 
 .icon {
-    width: 11rem;
+    width: 13rem;
     height: 100%;
     display: flex;
     align-items: center;
@@ -31,5 +35,39 @@
     height: auto;
     background-color: #ccc;
     box-sizing: content-box;
-    padding: .45rem;
+    padding: .45rem 1rem;
+}
+
+.second-bar {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+.l-side {
+    display: flex;
+    width: 20%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.l-side_img {
+    width: 8rem;
+    margin: 0 1rem;
+}
+
+.r-side_button {
+    text-transform: capitalize;
+    color: aliceblue;
+    border: none;
+    font-size: 1rem;
+    background-color: rgba(255, 71, 71);
+    padding: .8rem 2.5rem;
+}
+
+body {
+    background-color: rgba(0, 0, 80, .9);
 }
