@@ -61,7 +61,7 @@ a {
 
 .r-side_button {
     text-transform: capitalize;
-    color: aliceblue;
+    color: #ccc;
     border: none;
     font-size: 1rem;
     background-color: rgba(255, 71, 71);
